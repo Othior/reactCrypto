@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Listcoins from './components/Listcoins';
+import Listecoins from './components/Listecoins';
+// import Listcoins from './components/Listcoins';
 import Searchcrypto from './components/searchCrypto';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         <h1>Crypto</h1>
       </header>
       <main>
-        <Listcoins></Listcoins>
+        <Listecoins></Listecoins>
         <Searchcrypto></Searchcrypto>
       </main>
     </div>

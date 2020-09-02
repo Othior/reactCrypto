@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component,useEffect } from "react";
 import Axios from "axios";
 
 class Searchcrypto extends Component {
